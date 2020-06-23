@@ -15,7 +15,7 @@ In this repo I write a script that queries the GeoJson data of all regions of Sa
 Note: github doesn't render `folium` maps, so please [click here](https://nbviewer.jupyter.org/github/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_vis.ipynb) to see the map
 
 ## How to use it
-By executing the python code in [SA_regions_geojsons_builder.py](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_geojsons_builder.py), the JSON file [SA_regions.json](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions.json) will be created, and can be fed into heatmap visualizations libraries such as folium as demonstrated in [SA_regions_vis.ipynb](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_vis.ipynb)
+By executing the python code in [SA_regions_geojsons_builder.py](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_geojsons_builder.py), the JSON file [SA_regions.json](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions.json) will be created, and can be fed into heatmap visualizations libraries such as folium as demonstrated in [SA_regions_vis.ipynb](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_vis.ipynb)
 
 
  
