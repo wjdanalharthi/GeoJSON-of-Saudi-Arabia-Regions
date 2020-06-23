@@ -8,7 +8,7 @@ I wanted to created a heatmap of Saudi Arabia such that the variation in color i
 
 Such visualization requires us to know the latitude and longitude of every point on the boundaries of each region. In other words we need the exactly geographic encoding of the regions, which we call [GeoJson](http://www.GeoJson.org).
 
-One way to do is manually drawing the boundaries using tools such as [geojson.io](www.geojson.io), and exporting the GeoJSON data. An easier way is to utilize OpenStreetMaps to obtain that data. 
+One way to do is manually drawing the boundaries using tools such as [geojson.io](http://www.geojson.io), and exporting the GeoJSON data. An easier way is to utilize OpenStreetMaps to obtain that data. 
 
 In this repo I write a script that queries the GeoJson data of all regions of Saudi, and demonstrated it on the map using `folium` visualization library.
 
