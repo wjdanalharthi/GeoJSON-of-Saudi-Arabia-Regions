@@ -46,5 +46,5 @@ for k in REGIONS_OSM_CODES:
         output['features'].append(feature)
 
 # dump output in json file
-with open('SA_regions.json', 'w', encoding='utf-8') as f:
+with open('./data/SA_regions.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
