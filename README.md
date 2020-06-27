@@ -12,10 +12,11 @@ One way to do that is by manually drawing the boundaries using tools such as [ge
 
 In this repo I wrote a script that queries the GeoJson data of all regions of Saudi, and demonstrated it on the map using `folium` visualization library.
 
-Note: github doesn't render `folium` maps, so please [click here](https://nbviewer.jupyter.org/github/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_vis.ipynb) to see the map
+Note: github doesn't render `folium` maps, so please [click here](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_map.html) or [here](https://nbviewer.jupyter.org/github/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_vis.ipynb) to see the map
+
 
 ## How to use it
-By executing the python code in [SA_regions_geojsons_builder.py](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_geojsons_builder.py), the JSON file [SA_regions.json](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions.json) will be created, and can be fed into heatmap visualizations libraries such as folium as demonstrated in [SA_regions_vis.ipynb](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_vis.ipynb)
+By executing the python code in [SA_regions_geojsons_builder.py](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/SA_regions_geojsons_builder.py), the JSON file [SA_regions.json](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/data/SA_regions.json)  will be created, and can be fed into heatmap visualizations libraries such as folium as demonstrated in [SA_regions_vis.ipynb](https://github.com/wjdanalharthi/GeoJSON-of-Saudi-Arabia-Regions/blob/master/example/SA_regions_vis.ipynb)
 
 
 To reuse this code for another country, modify the names and OSM codes in the python script and rerun it
